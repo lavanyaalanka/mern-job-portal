@@ -1,0 +1,26 @@
+.home-container {
+  text-align: center;
+  margin-top: 50px;
+  height: 100vh; /* Full viewport height */
+  background-color: #589fb1bd; /* Light blue background (you can change) */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center;     /* Center horizontally */
+}
+
+..home-button {
+  background-color: #daddda; /* light green */
+  color: black;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #76d376; /* slightly darker on hover */
+}
