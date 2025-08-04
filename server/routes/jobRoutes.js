@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const authMiddleware = require('../middlewares/authMiddleware');
 const Job = require('../models/Job');
-const User = require('../models/User');
+const User = require('../models/user');
 
 // ✅ POST: Only Admin can create a job
 router.post('/', authMiddleware, async (req, res) => {
